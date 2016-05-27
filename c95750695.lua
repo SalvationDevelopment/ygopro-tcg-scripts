@@ -1,4 +1,4 @@
---スーペルヴィス
+--Supervise
 function c95750695.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)

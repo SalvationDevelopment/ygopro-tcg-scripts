@@ -1,4 +1,4 @@
---鬼ガエル
+--Swap Frog
 function c9126351.initial_effect(c)
 	--special summon
 	local e1=Effect.CreateEffect(c)
