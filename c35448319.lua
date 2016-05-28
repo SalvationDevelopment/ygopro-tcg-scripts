@@ -1,4 +1,4 @@
---Snyffus
+--除草獣
 function c35448319.initial_effect(c)
 	--destroy
 	local e1=Effect.CreateEffect(c)
@@ -17,7 +17,7 @@ function c35448319.initial_effect(c)
 	e2:SetDescription(aux.Stringid(35448319,1))
 	e2:SetCategory(CATEGORY_SPECIAL_SUMMON)
 	e2:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
-	e1:SetProperty(EFFECT_FLAG_DAMAGE_STEP)
+	e2:SetProperty(EFFECT_FLAG_DAMAGE_STEP)
 	e2:SetCode(EVENT_DESTROYED)
 	e2:SetRange(LOCATION_GRAVE)
 	e2:SetCondition(c35448319.spcon)
