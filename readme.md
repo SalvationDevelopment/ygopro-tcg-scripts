@@ -12,8 +12,8 @@
 - `Skull Meister [67750322]` : In the TCG, can activate in the Damage Step  
 - `Null and Void [80863132]` : In the TCG, "Null and Void" can be activated during the Damage Step.  
 - `Attack the Moon! [83715234]` : In the TCG, the effect of "Attack the Moon!" can be activated during the Damage Step. In the OCG, it cannot.  
+- `Super Anti-Kaiju War Machine Mecha-Dogoran [84769941]` : In the TCG, is not a semi-nomi monster  
 - `Swap Frog [9126351]` : In the TCG, is able to bounce itself back to the hand multiple times  
 - `Supervise [95750695]` : In the TCG, if this card is Special Summoned by `Magical Hats` and then is attacked while face-down and destroyed by battle, its effects cannot be activated.  
-- `Super Anti-Kaiju War Machine Mecha-Dogoran [84769941]` : In the TCG, is not a semi-nomi monster  
 - `Infernity Archfiend [99177923]` : In the TCG, "Infernity Archfiend" cannot Special Summon itself from the hand during the Damage Step.  
 - `Interrupted Kaiju Slumber [99330325]` : In the TCG, can activate if there's a Kaiju monster on the field  
