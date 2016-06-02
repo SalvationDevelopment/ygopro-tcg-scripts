@@ -1,4 +1,4 @@
---ピースの輪
+--Symbol of Friendship
 function c2295831.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)

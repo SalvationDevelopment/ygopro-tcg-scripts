@@ -1,4 +1,4 @@
---幻影騎士団ダーク・ガントレット
+--The Phantom Knights of Dark Gauntlets
 function c24212820.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)
