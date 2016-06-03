@@ -18,6 +18,7 @@
 - `Attack the Moon! [83715234]` : In the TCG, the effect of "Attack the Moon!" can be activated during the Damage Step. In the OCG, it cannot.  
 - `Super Anti-Kaiju War Machine Mecha-Dogoran [84769941]` : In the TCG, is not a semi-nomi monster  
 - `Swap Frog [9126351]` : In the TCG, is able to bounce itself back to the hand multiple times  
+- `Kagetokage [94656263]` : In the TCG, is not a semi-nomi monster  
 - `Supervise [95750695]` : In the TCG, if this card is Special Summoned by `Magical Hats` and then is attacked while face-down and destroyed by battle, its effects cannot be activated.  
 - `Amorphactor Pain, the Imagination Dracoverlord [98287529]` : In the TCG, the effect "Your opponent skips their next Main Phase 1." starts a Chain Link. In the OCG, it does not start a Chain Link.
 - `Infernity Archfiend [99177923]` : In the TCG, "Infernity Archfiend" cannot Special Summon itself from the hand during the Damage Step.  
