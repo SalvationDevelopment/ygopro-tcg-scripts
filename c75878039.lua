@@ -24,7 +24,7 @@ end
 function c75878039.target(e,tp,eg,ep,ev,re,r,rp,chk)
 	local tc=e:GetHandler()
 	if chk==0 then return Duel.IsExistingMatchingCard(c75878039.filter,tp,LOCATION_DECK,0,1,nil) 
-	and tc:IsLocation(LOCATION_MZONE) end
+	and tc:IsLocation(LOCATION_MZONE) and tc:IsPosition(POS_FACEUP) end
 	Duel.SetOperationInfo(0,CATEGORY_TOHAND,nil,1,tp,LOCATION_DECK)
 end
 function c75878039.operation(e,tp,eg,ep,ev,re,r,rp)
