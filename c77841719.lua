@@ -12,7 +12,7 @@ function c77841719.initial_effect(c)
 	e2:SetDescription(aux.Stringid(77841719,0))
 	e2:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_O)
 	e2:SetProperty(EFFECT_FLAG_CARD_TARGET)
-	e2:SetCode(EVENT_DESTROYED)
+	e2:SetCode(EVENT_LEAVE_FIELD)
 	e2:SetCondition(c77841719.condition)
 	e2:SetTarget(c77841719.target)
 	e2:SetOperation(c77841719.operation)
@@ -21,7 +21,7 @@ end
 function c77841719.condition(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()
 	local crp=c:GetReasonPlayer()
-	return c:IsReason(REASON_DESTROY+REASON_BATTLE) and c:GetPreviousControler()==tp and tp~=crp and crp~=PLAYER_NONE
+	return c:IsReason(REASON_EFFECT+REASON_BATTLE) and c:GetPreviousControler()==tp and tp~=crp and crp~=PLAYER_NONE
 end
 function c77841719.filter(c)
 	return c:IsFaceup() and c:IsControlerCanBeChanged()
