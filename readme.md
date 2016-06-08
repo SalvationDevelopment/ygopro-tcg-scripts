@@ -14,6 +14,7 @@
 - `Calming Magic [51773900]` : The OCG text specifies that you also cannot Set monsters, but not in the TCG  
 - `Trap Reactor・Y FI [52286175]` : In the TCG, it is a Trigger Effect and can be activated during the Damage Step. In the OCG, it is a Quick Effect and cannot be activated during the Damage Step.  
 - `Skull Meister [67750322]` : In the TCG, can activate in the Damage Step  
+- `Evilswarm Coppelia [77841719]` : In the TCG, the effect of "Evilswarm Coppelia" is optional, and can only be activated when it leaves the field by an opponent's card (by battle or card effect). In the OCG, the effect of "Evilswarm Coppelia" is mandatory, and activates whenever it leaves the field by an opponent's card (by battle, card effect, Special Summoning condition, or cost).
 - `Null and Void [80863132]` : In the TCG, "Null and Void" can be activated during the Damage Step.  
 - `Attack the Moon! [83715234]` : In the TCG, the effect of "Attack the Moon!" can be activated during the Damage Step. In the OCG, it cannot.  
 - `Super Anti-Kaiju War Machine Mecha-Dogoran [84769941]` : In the TCG, is not a semi-nomi monster  
