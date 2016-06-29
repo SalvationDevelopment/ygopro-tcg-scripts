@@ -25,12 +25,12 @@ end
 
 function c99330325.tmpfilter1(c,e,tp)
 	return c:IsSetCard(0xd3) and c:IsType(TYPE_MONSTER) 
-		and Duel.IsPlayerCanSpecialSummonMonster(tp,c:GetCode(),cc,0x21,c:GetAttack(),c:GetDefence(),c:GetLevel(),c:GetRace(),c:GetAttribute(),POS_FACEUP_ATTACK,tp)
+		and Duel.IsPlayerCanSpecialSummonMonster(tp,c:GetCode(),cc,0x21,c:GetAttack(),c:GetDefense(),c:GetLevel(),c:GetRace(),c:GetAttribute(),POS_FACEUP_ATTACK,tp)
 		and Duel.IsExistingMatchingCard(c99330325.tmpfilter2,tp,LOCATION_DECK,0,1,nil,e,tp,c:GetCode())
 end
 function c99330325.tmpfilter2(c,e,tp,cd)
 	return c:IsSetCard(0xd3) and c:IsType(TYPE_MONSTER) and not c:IsCode(cd)
-		and Duel.IsPlayerCanSpecialSummonMonster(tp,c:GetCode(),cc,0x21,c:GetAttack(),c:GetDefence(),c:GetLevel(),c:GetRace(),c:GetAttribute(),POS_FACEUP_ATTACK,1-tp)
+		and Duel.IsPlayerCanSpecialSummonMonster(tp,c:GetCode(),cc,0x21,c:GetAttack(),c:GetDefense(),c:GetLevel(),c:GetRace(),c:GetAttribute(),POS_FACEUP_ATTACK,1-tp)
 end
 function c99330325.filter1(c,e,tp)
 	return c:IsSetCard(0xd3) and c:IsType(TYPE_MONSTER) and c:IsCanBeSpecialSummoned(e,0,tp,false,false)
